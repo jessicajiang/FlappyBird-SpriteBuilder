@@ -127,8 +127,8 @@
 
 - (void)update:(CCTime)delta
 {
-//    _sinceTouch += delta;
-//    
+    _sinceTouch += delta;
+//
 //    character.rotation = clampf(character.rotation, -30.f, 90.f);
 //    
 //    if (character.physicsBody.allowsRotation) {
