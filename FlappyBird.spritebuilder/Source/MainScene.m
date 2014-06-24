@@ -132,8 +132,8 @@
     character.rotation = clampf(character.rotation, -30.f, 90.f);
     
     if (character.physicsBody.allowsRotation) {
-        float angularVelocity = clampf(character.physicsBody.angularVelocity, -2.f, 1.f);
-        character.physicsBody.angularVelocity = angularVelocity;
+//        float angularVelocity = clampf(character.physicsBody.angularVelocity, -2.f, 1.f);
+//        character.physicsBody.angularVelocity = angularVelocity;
     }
     
     if ((_sinceTouch > 0.5f)) {
