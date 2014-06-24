@@ -202,20 +202,20 @@
 //        [obstacleToRemove removeFromParent];
 //        [_obstacles removeObject:obstacleToRemove];
 //    }
-    
-    if (!_gameOver)
-    {
-        @try
-        {
-            character.physicsBody.velocity = ccp(80.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
-            
-            [super update:delta];
-        }
-        @catch(NSException* ex)
-        {
-            
-        }
-    }
+//    
+//    if (!_gameOver)
+//    {
+//        @try
+//        {
+//            character.physicsBody.velocity = ccp(80.f, clampf(character.physicsBody.velocity.y, -MAXFLOAT, 200.f));
+//            
+//            [super update:delta];
+//        }
+//        @catch(NSException* ex)
+//        {
+//            
+//        }
+//    }
 }
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair*)pair character:(CCSprite*)character level:(CCNode*)level {
